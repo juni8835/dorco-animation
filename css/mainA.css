@@ -1,0 +1,111 @@
+:root {
+  --primary-400: #cfe942;
+  --primary-600: #a7be38;
+  --dark-color: #231f20;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+img {
+  width: 100%;
+}
+.no-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.extra-section {
+  height: 100vh;
+  background-color: blue;
+}
+
+.bg--primary {
+  background-color: var(--primary-400);
+}
+.bg--pattern {
+  background-image: url('../images/pattern.png');
+  background-color: var(--primary-400);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg--dark {
+  background-color: var(--dark-color);
+}
+
+.about-section .first-section .first-section-wrapper {
+  max-width: 64rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.about-section {
+  height: 300vh;
+}
+
+.no-dorco-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+.no-dorco-about__title {
+  margin: 2.4rem 0 1.6rem;
+  font-size: 6rem;
+  font-weight: 700;
+}
+.no-dorco-about__desc span {
+  display: block;
+  line-height: 1.6;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.year-section {
+  height: 600vh;
+  position: sticky;
+  top: 0;
+}
+.no-year-charList {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+.no-year-con {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.no-year-middle-text {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.no-year-middle-text h3 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.no-year-middle-text p {
+  text-align: center;
+}
